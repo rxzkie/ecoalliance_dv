@@ -4,6 +4,6 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://ecoalliance.pythonanywhere.com/'
+axios.defaults.baseURL = 'https://ecoalliance.pythonanywhere.com'
 
 createApp(App).use(store).use(router, axios).mount('#app')
