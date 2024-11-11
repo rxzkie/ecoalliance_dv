@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^xrn3!6^a89v$my=&iy_c8f&w$uj-hnag5klben!#84i4)8^9$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['https://ecoalliance.pythonanywhere.com']
 
 
 # Application definition
@@ -49,7 +49,8 @@ INSTALLED_APPS = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    'ecoalliance.pythonanywhere.com'
+    "http://localhost:8080",
+    "https://ecoalliance.pythonanywhere.com",
 ]
 
 
