@@ -43,17 +43,15 @@ INSTALLED_APPS = [
     'corsheaders',
     'djoser',
 
-    'product',
+    'product'
 
 ]
 
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "https://ecoalliance.pythonanywhere.com",
+    "https://ecoalliance.pythonanywhere.com"
 ]
-
-
 
 
 
