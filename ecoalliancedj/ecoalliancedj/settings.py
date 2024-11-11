@@ -49,8 +49,7 @@ INSTALLED_APPS = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "https://ecoalliance.pythonanywhere.com",
+    "http://localhost:8080"
 ]
 
 
